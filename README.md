@@ -16,7 +16,7 @@ At the end these are the results:
 - Z5: 300 point/hour
 
 ## Making of the Suunto App
-And here’s the [final code](http://www.movescount.com/apps/app10925786) from the Movescount App Zone editor.
+Here’s the [final code](http://www.movescount.com/apps/app10925786) from the Movescount App Zone editor.
 
 ```
 RESULT = SCORE;
@@ -38,3 +38,5 @@ if(SUUNTO_HR >= SUUNTO_USER_REST_HR && SUUNTO_HR <= 60*SUUNTO_USER_MAX_HR/100) {
 	}
 }
 ```
+
+A list of `case` would have been way better, unfortunately the [available syntax](http://content.static.movescount.com/downloads/SuuntoAppZoneDeveloperManual.pdf) is really limited.
