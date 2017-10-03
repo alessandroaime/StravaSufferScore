@@ -3,12 +3,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Decoding the Algorithm
-Few days ago I purchased a Suunto Ambit3 Peak, mainly because I was looking for something new after two years, and thousands of kilometres, with my faithful Polar RC3 (which still rocks as the first day).
-From a Computer Science student point of view, the chance to build apps for and upload them on it, is one of the main feature that made me decided to go for it. As well as, it is the most used GPS watch in the ultra-marathon scene.
+Few days ago I purchased a Suunto Ambit3 Peak after two years, and thousands of kilometres, with my faithful Polar RC3. The fact anyone can build small apps for this device is one of the main reasons that made me opt for it instead of its competitors.
 
-I’m also a big fan of Strava, for what it concern the social part of the sport. So, my main thought was: why not to try to decode the Strava Suffer Score algorithm in order to make it an app?
+Being a big fan of Strava I had the idea of _"reverse engineering"_ the Strava Suffer Score algorithm to make it an app for all the Suunto users out there.
 
-At the end these are the approximative results:
+At the end these are the results:
 
 - Z1: 25 point/hour
 - Z2: 60 point/hour
