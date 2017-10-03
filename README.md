@@ -5,7 +5,7 @@
 ## Decoding the Algorithm
 Few days ago I purchased a Suunto Ambit3 Peak after two years, and thousands of kilometres, with my faithful Polar RC3. The fact anyone can build small apps for this device is one of the main reasons that made me opt for it instead of its competitors.
 
-Being a big fan of Strava I had the idea of _"reverse engineering"_ the Strava Suffer Score algorithm to make it an app for all the Suunto users out there.
+Being a big fan of Strava I had the idea of "reverse engineering" the Strava Suffer Score algorithm to make it an app for all the Suunto users out there.
 
 At the end these are the results:
 
@@ -34,3 +34,5 @@ if(SUUNTO_HR >= SUUNTO_USER_REST_HR && SUUNTO_HR <= 60*SUUNTO_USER_MAX_HR/100) {
 ```
 
 A list of `case` would have been better, unfortunately the [available syntax](http://content.static.movescount.com/downloads/SuuntoAppZoneDeveloperManual.pdf) is really limited.
+
+**Movescount doesn't let you edit the content of your app when this has been downloaded by more then one user, so the code won't look as "clean" as the one above.**
