@@ -21,22 +21,16 @@ Here’s the [final code](http://www.movescount.com/apps/app10925786) from the M
 ```
 RESULT = SCORE;
 if(SUUNTO_HR >= SUUNTO_USER_REST_HR && SUUNTO_HR <= 60*SUUNTO_USER_MAX_HR/100) {
-	SCORE = SCORE + 25/3600;
+  SCORE = SCORE + 25/3600;
+} else if(SUUNTO_HR > 60*SUUNTO_USER_MAX_HR/100 && SUUNTO_HR <= 70*SUUNTO_USER_MAX_HR/100) {
+  SCORE = SCORE + 60/3600;
+} else if(SUUNTO_HR > 70*SUUNTO_USER_MAX_HR/100 && SUUNTO_HR <= 80*SUUNTO_USER_MAX_HR/100) {
+  SCORE = SCORE + 115/3600;
+} else if(SUUNTO_HR > 80*SUUNTO_USER_MAX_HR/100 && SUUNTO_HR < 90*SUUNTO_USER_MAX_HR/100) {
+  SCORE = SCORE + 250/3600;
 } else {
-	if(SUUNTO_HR > 60*SUUNTO_USER_MAX_HR/100 && SUUNTO_HR <= 70*SUUNTO_USER_MAX_HR/100) {
-		SCORE = SCORE + 60/3600;
-	} else {
-		if(SUUNTO_HR > 70*SUUNTO_USER_MAX_HR/100 && SUUNTO_HR <= 80*SUUNTO_USER_MAX_HR/100) {
-			SCORE = SCORE + 115/3600;
-		} else {
-			if(SUUNTO_HR > 80*SUUNTO_USER_MAX_HR/100 && SUUNTO_HR < 90*SUUNTO_USER_MAX_HR/100) {
-				SCORE = SCORE + 250/3600;
-			} else {
-				SCORE = SCORE + 300/3600;
-			}
-		}
-	}
+  SCORE = SCORE + 300/3600;
 }
 ```
 
-A list of `case` would have been way better, unfortunately the [available syntax](http://content.static.movescount.com/downloads/SuuntoAppZoneDeveloperManual.pdf) is really limited.
+A list of `case` would have been better, unfortunately the [available syntax](http://content.static.movescount.com/downloads/SuuntoAppZoneDeveloperManual.pdf) is really limited.
