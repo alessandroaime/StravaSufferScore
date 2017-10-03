@@ -35,4 +35,4 @@ if(SUUNTO_HR >= SUUNTO_USER_REST_HR && SUUNTO_HR <= 60*SUUNTO_USER_MAX_HR/100) {
 
 A list of `case` would have been better, unfortunately the [available syntax](http://content.static.movescount.com/downloads/SuuntoAppZoneDeveloperManual.pdf) is really limited.
 
-**Movescount doesn't let you edit the content of your app when this has been downloaded by more then one user, so the code won't look as "clean" as the one above.**
+**Movescount doesn't let you edit the content of your app when this has been downloaded by more then one user, so the executable code won't look as "clean" as the one above.**
