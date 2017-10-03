@@ -16,7 +16,7 @@ At the end these are the results:
 - Z5: 300 point/hour
 
 ## Making of the Suunto App
-Here’s the [final code](http://www.movescount.com/apps/app10925786) from the Movescount App Zone editor.
+Here’s the [final code](http://www.movescount.com/apps/app10925786) from the Movescount App Zone editor:
 
 ```
 RESULT = SCORE;
