@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Decoding the Algorithm
-Few days ago I purchased a Suunto Ambit3 Peak after two years, and thousands of kilometres, with my faithful Polar RC3. The fact anyone can build small apps for this device is one of the main reasons that made me opt for it instead of its competitors.
+Few days ago I purchased a [Suunto Ambit3 Peak](http://www.suunto.com/en-US/Products/Sports-Watches/Suunto-Ambit3-Peak/Suunto-Ambit3-Peak-Sapphire-HR/) after four years, and thousands of kilometres, with my faithful [Polar RC3](https://www.polar.com/us-en/products/improve_fitness/running_multisport/RC3_GPS). The fact anyone can build small apps for this device is one of the main reasons that made me opt for it instead of its competitors.
 
 Being a big fan of Strava I had the idea of "reverse engineering" the Strava Suffer Score algorithm to make it an app for all the Suunto users out there.
 
