@@ -1,4 +1,7 @@
 # Strava Suffer Score
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Decoding the Algorithm
 Few days ago I purchased a Suunto Ambit3 Peak, mainly because I was looking for something new after two years, and thousands of kilometres, with my faithful Polar RC3 (which still rocks as the first day).
 From a Computer Science student point of view, the chance to build apps for and upload them on it, is one of the main feature that made me decided to go for it. As well as, it is the most used GPS watch in the ultra-marathon scene.
